@@ -3,7 +3,8 @@
     <Navbar />
     <div class="d-flex">
       <MenuBar />
-      <Dashboard />
+      <!-- <Dashboard /> -->
+      <SelectTopic />
     </div>
   </div>
 </template>
@@ -12,12 +13,14 @@
 import Navbar from '@/components/navbar/Navbar.vue'
 import MenuBar from '@/components/menuBar/MenuBar.vue'
 import Dashboard from '@/components/dashboard/Dashboard.vue'
+import SelectTopic from '@/components/selectTopic/SelectTopic.vue'
 
 export default {
   components: {
     Navbar,
     MenuBar,
     Dashboard,
+    SelectTopic,
   },
 }
 </script>

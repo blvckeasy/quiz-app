@@ -1,0 +1,37 @@
+.div {
+  height: 890px;
+}
+.btn {
+  width: 271px;
+  height: 64px;
+  border-radius: 30px;
+  margin-right: 5px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #696f79;
+  margin: 10px 22px;
+}
+.btn-active {
+  background-color: #8692a6;
+  color: white;
+}
+
+.btn-active > p {
+  color: white;
+}
+
+button i {
+  justify-self: flex-start;
+}
+
+button p {
+  justify-self: center;
+  text-align: center;
+  width: 114px;
+  margin: 17px 0px;
+}

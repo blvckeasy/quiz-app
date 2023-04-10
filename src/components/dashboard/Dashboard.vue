@@ -44,8 +44,29 @@
             <div class="progress-bar w-102"></div>
           </div>
         </div>
-        <div class="main">
-          <!-- somthing -->
+        <div class="main d-flex flex-column">
+          <div class="list d-flex">
+            <div class="item">
+              <i
+                class="fa-sharp fa-solid fa-medal fa-2xl size"
+                style="color: #ffdb29"
+              ></i>
+              <p>Comeback</p>
+            </div>
+            <div class="item">
+              <i class="fa-solid fa-star fa-2xl size" style="color: #ffdb29"></i>
+              <p>Winner</p>
+            </div>
+            <div class="item">
+              <i
+                class="fa-solid fa-face-smile-beam fa-2xl size"
+                style="color: #ffdb29"
+              ></i>
+              <p>Lucky</p>
+            </div>
+          </div>
+          <hr class="line" />
+          <p>View All</p>
         </div>
       </div>
       <div class="featured-category">
@@ -80,165 +101,5 @@
   </div>
 </template>
 
-<script>
-export default {}
-</script>
-
-<style scoped>
-.dashboard {
-  width: 1080px;
-  height: 890px;
-  background-color: #ffffff;
-  box-shadow: 0px 15px 40px 5px #ededed;
-  border-radius: 30px;
-}
-
-.header > img {
-  width: 298px;
-  height: 258px;
-  box-shadow: 0px 15px 40px 5px #ededed;
-  border-radius: 30px;
-  margin: 56px 36px;
-}
-
-.progress {
-  width: 620px;
-  height: 12px;
-  background: linear-gradient(0deg, #f5f5f5, #f5f5f5), #f5f5f5;
-  border-radius: 30px;
-}
-.progress-bar {
-  width: 435px;
-  height: 12px;
-  background: linear-gradient(0deg, #c4c4c4, #c4c4c4), #f5f5f5;
-  box-shadow: 4px 4px 4px 3px rgba(237, 237, 237, 0.59);
-  border-radius: 30px;
-}
-.quiz-passed-result {
-  display: flex;
-  margin-top: 44px;
-}
-.quiz-passed-result > .box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 75px;
-  height: 75px;
-  background: #ffffff;
-  box-shadow: 0px 15px 40px 5px #ededed;
-  border-radius: 15px;
-  margin-right: 15px;
-}
-
-.quiz-passed-result > .score {
-  display: flex;
-  flex-direction: column;
-}
-
-.score > h1 {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 29px;
-  line-height: 44px;
-  color: #696f79;
-}
-
-.score > p {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #696f79;
-  width: 132px;
-}
-.info > h1,
-p {
-  font-family: 'Poppins';
-  font-style: normal;
-  color: #696f79;
-}
-
-.info > h1 {
-  font-weight: 700;
-  margin-top: 67px;
-  font-size: 33px;
-  line-height: 50px;
-}
-.info > p {
-  font-weight: 400;
-  font-size: 19px;
-  line-height: 28px;
-  margin-bottom: 32px;
-}
-.results {
-  display: flex;
-}
-.w-102 {
-  width: 102px;
-}
-.w-160 {
-  width: 160px;
-}
-.achievements,
-.featured-category {
-  margin-top: 60px;
-  margin-left: 17px;
-  margin-right: 33px;
-  width: 496px;
-}
-.achievements > .title {
-  justify-content: space-between;
-  align-items: center;
-}
-.achievements > .title > h1,
-.featured-category > .title > h1,
-.featured-category > .title > p {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 38px;
-  color: #696f79;
-  margin-bottom: 17px;
-}
-
-.featured-category > .title > p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #696f79;
-  margin-top: 7px;
-}
-.achievements > .main {
-  width: 482px;
-  height: 380px;
-  background: #ffffff;
-  box-shadow: 0px 15px 40px 5px #ededed;
-  border-radius: 30px;
-}
-.f-category-main > .photo-title > img {
-  width: 235px;
-  height: 172px;
-  background: url(.jpg), #ffffff;
-  box-shadow: 0px 15px 40px 5px #ededed;
-  border-radius: 30px;
-  margin-bottom: 32px;
-  position: relative;
-}
-.f-category-main > .photo-title > p {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-  color: #FFFFFF;
-  position: absolute;
-  margin-top: -80px;
-  margin-left: 15px;
-}
-.f-category-main {
-  justify-content: space-between;
-}
-</style>
+<script src="./dashboard.js"></script>
+<style src="./dashboard.css"></style>
