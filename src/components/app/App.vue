@@ -4,7 +4,8 @@
     <div class="d-flex">
       <MenuBar />
       <!-- <Dashboard /> -->
-      <SelectTopic />
+      <!-- <SelectTopic /> -->
+      <Instruction />
     </div>
   </div>
 </template>
@@ -14,6 +15,7 @@ import Navbar from '@/components/navbar/Navbar.vue'
 import MenuBar from '@/components/menuBar/MenuBar.vue'
 import Dashboard from '@/components/dashboard/Dashboard.vue'
 import SelectTopic from '@/components/selectTopic/SelectTopic.vue'
+import Instruction from '@/components/instruction/Instruction.vue'
 
 export default {
   components: {
@@ -21,6 +23,7 @@ export default {
     MenuBar,
     Dashboard,
     SelectTopic,
+    Instruction,
   },
 }
 </script>

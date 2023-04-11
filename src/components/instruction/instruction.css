@@ -1,0 +1,93 @@
+.instruction-desktop {
+  width: 1080px;
+  height: 850px;
+  background-color: #ffffff;
+  box-shadow: 0px 15px 40px 5px #ededed;
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  color: #696f79;
+  font-family: 'Poppins';
+  font-style: normal;
+}
+
+.instruction-desktop > h1 {
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 50px;
+  color: #696f79;
+  margin-top: 22px;
+  margin-left: 40px;
+}
+
+.instruction-desktop > .extension {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 30px;
+  margin-bottom: 23px;
+}
+
+.instruction-desktop > .info > img {
+  box-shadow: 0px 15px 40px 5px #ededed;
+  border-radius: 30px;
+  width: 503px;
+  height: 296px;
+  margin-left: 37px;
+}
+
+.info {
+  margin-bottom: 25px;
+}
+
+.quiz-info {
+  width: 400px;
+}
+
+.quiz-info > .quiz-titles > p {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 34px;
+  color: #696f79;
+  margin-bottom: 32px;
+}
+
+.quiz-info > .quiz-utils > p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #696f79;
+  margin-bottom: 38px;
+}
+
+.instruction-desktop > .instruction {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 34px;
+  color: #696f79;
+  margin-left: 40px;
+  margin-bottom: 26px;
+}
+
+.instruction-desktop > .description {
+  width: 1032px;
+  height: 194px;
+  margin-left: 40px;
+  margin-right: 8px;
+}
+
+.instruction-desktop > .description > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #696f79;
+}
+
+.btn-active {
+  background-color: #8692a6;
+}
+.right-btn {
+  margin-left: calc(77%);
+  margin-top: 50px;
+  width: 212px;
+}

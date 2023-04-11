@@ -69,7 +69,7 @@ export default {}
 <style scoped>
 .select-topic {
   width: 1080px;
-  height: 890px;
+  height: 850px;
   background-color: #ffffff;
   box-shadow: 0px 15px 40px 5px #ededed;
   border-radius: 30px;
@@ -120,7 +120,7 @@ export default {}
 }
 .right-btn {
   margin-left: calc(77%);
-  margin-top: 50px;
+  margin-top: 20px;
   width: 212px;
 }
 </style>
