@@ -5,7 +5,8 @@
       <MenuBar />
       <!-- <Dashboard /> -->
       <!-- <SelectTopic /> -->
-      <Instruction />
+      <!-- <Instruction /> -->
+      <AnswerQuestion />
     </div>
   </div>
 </template>
@@ -16,6 +17,8 @@ import MenuBar from '@/components/menuBar/MenuBar.vue'
 import Dashboard from '@/components/dashboard/Dashboard.vue'
 import SelectTopic from '@/components/selectTopic/SelectTopic.vue'
 import Instruction from '@/components/instruction/Instruction.vue'
+import AnswerQuestion from '@/components/answerQuestion/AnswerQuestion.vue'
+
 
 export default {
   components: {
@@ -24,6 +27,7 @@ export default {
     Dashboard,
     SelectTopic,
     Instruction,
+    AnswerQuestion,
   },
 }
 </script>

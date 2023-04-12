@@ -1,0 +1,98 @@
+.dashboard {
+  width: 1080px;
+  height: 850px;
+  background-color: #ffffff;
+  box-shadow: 0px 15px 40px 5px #ededed;
+  border-radius: 30px;
+}
+.header > .title {
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 50px;
+  color: #696f79;
+  margin-top: 23px;
+  margin-left: 40px;
+}
+.header > .timer {
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 50px;
+  color: #696f79;
+  margin-top: 23px;
+  margin-right: 45px;
+}
+.dashboard > .description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #696f79;
+  margin-left: 40px;
+  margin-bottom: 23px;
+}
+.question > img {
+  width: 503px;
+  height: 296px;
+  box-shadow: 0px 15px 40px 5px #ededed;
+  border-radius: 30px;
+  margin-left: 40px;
+}
+.question {
+  margin-bottom: 25px;
+}
+.question > .question-text {
+  margin-left: 46px;
+}
+.question > .question-text > .question-number {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 34px;
+  color: #696f79;
+}
+.question > .question-text > .question-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #696f79;
+  width: 452px;
+  height: 108px;
+  margin-top: 25px;
+}
+.answer-list {
+  margin-left: 40px;
+  justify-content: space-between;
+  height: 180px;
+}
+.answer-list > .answer-item {
+  margin-bottom: 5px;
+  height: 190px;
+}
+.answer-list > .answer-item > input {
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+}
+.answer-list > .answer-item > label {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #696f79;
+  margin-left: 28px;
+}
+
+.dashboard > h2 {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 34px;
+  color: #696f79;
+  margin-left: 40px;
+  margin-bottom: 23px;
+}
+
+.btn-active {
+  background-color: #8692a6;
+}
+.right-btn {
+  margin-left: calc(77%);
+  margin-top: 50px;
+  width: 212px;
+}
