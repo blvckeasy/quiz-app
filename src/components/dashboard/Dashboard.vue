@@ -102,4 +102,4 @@
 </template>
 
 <script src="./dashboard.js"></script>
-<style src="./dashboard.css"></style>
+<style src="./dashboard.css" scoped></style>

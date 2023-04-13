@@ -15,4 +15,4 @@
 export default {}
 </script>
 
-<style src="./navbar.css"></style>
+<style src="./navbar.css" scoped></style>

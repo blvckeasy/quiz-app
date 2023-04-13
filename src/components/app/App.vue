@@ -3,11 +3,12 @@
     <Navbar />
     <div class="d-flex">
       <MenuBar />
-      <!-- <Dashboard /> -->
+      <Dashboard />
       <!-- <SelectTopic /> -->
       <!-- <Instruction /> -->
-      <AnswerQuestion />
+      <!-- <AnswerQuestion /> -->
     </div>
+    <!-- <Login /> -->
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import Dashboard from '@/components/dashboard/Dashboard.vue'
 import SelectTopic from '@/components/selectTopic/SelectTopic.vue'
 import Instruction from '@/components/instruction/Instruction.vue'
 import AnswerQuestion from '@/components/answerQuestion/AnswerQuestion.vue'
+import Login from '@/components/login/Login.vue'
 
 
 export default {
@@ -28,6 +30,7 @@ export default {
     SelectTopic,
     Instruction,
     AnswerQuestion,
+    Login
   },
 }
 </script>

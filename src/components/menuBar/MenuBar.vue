@@ -29,4 +29,4 @@
 export default {}
 </script>
 
-<style src="./menuBar.css"></style>
+<style src="./menuBar.css" scoped></style>

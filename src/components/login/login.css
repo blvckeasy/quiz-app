@@ -1,0 +1,66 @@
+.container {
+  border: 1px solid red;
+  background-color: white;
+  max-width: 1440px;
+  max-height: 1024px;
+}
+
+.title > img {
+  position: relative;
+  background-image: url('@/assets/book.jpg');
+  filter: blur(12px);
+  -webkit-filter: blur(12px);
+  width: 663px;
+  height: 1024px;
+  height: 100%;
+}
+
+.description > h1 {
+  position: absolute;
+  top: calc(20%);
+  left: calc(20%);
+  font-family: 'Courgette';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 117px;
+  color: #00daf7;
+}
+
+.description > p {
+  position: absolute;
+  top: calc(27%);
+  left: calc(20%);
+  width: 297px;
+  height: 304px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  color: #ffffff;
+}
+
+.shape {
+  position: absolute;
+  top: calc(75%);
+  left: calc(38%);
+  background: #ffffff;
+  background-image: url('@/assets/login-tool-1.png');
+  background-size: 33.5px 33px;
+  width: 33.5px;
+  height: 33px;
+}
+
+.back-btn {
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.back-btn > p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8692a6;
+}

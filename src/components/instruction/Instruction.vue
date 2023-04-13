@@ -45,4 +45,4 @@
 <script>
 export default {}
 </script>
-<style src="./instruction.css"></style>
+<style src="./instruction.css" scoped></style>
