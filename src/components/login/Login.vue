@@ -16,36 +16,46 @@
           <div class="shape"></div>
         </div>
       </div>
-      <div class="auth col-6">
-        <button class="btn back-btn">
+      <div class="auth col-6 d-flex flex-column">
+        <button class="btn back-btn d-flex align-items-center">
           <i class="fa-solid fa-chevron-left fa-sm" style="color: #8692a6"></i>
           <p>Back</p>
         </button>
         <form class="d-flex flex-column">
-          <h1>Login to your Account</h1>
-          <p>with your registered Email Address</p>
+          <h1 class="login-text">Login to your Account</h1>
+          <p class="login-description">with your registered Email Address</p>
           <hr />
-          <label for="email">Email address*</label>
+          <label for="email" class="email-text">Email address*</label>
           <input
             type="text"
             name="email"
+            class="email"
             placeholder="Enter email address"
           /><br />
-          <label for="password">Enter password*</label>
-          <input type="text" name="password" placeholder="Password" /><br />
-          <div class="d-flex flex-row align-items-center">
-            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
-            <label for="vehicle3"> I have a boat</label><br /><br />
+          <label for="password" class="password-text">Enter password*</label>
+          <input
+            type="text"
+            name="password"
+            class="password"
+            placeholder="Password"
+          /><br />
+          <div class="remember-box d-flex flex-row align-items-center">
+            <input type="checkbox" class="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+            <label for="vehicle3">Remember my password</label><br /><br />
           </div>
-          <button type="button" class="btn">Login</button>
-          <div class="line d-flex">
-            <hr width="100">
-            <p>or</p>
-            <hr width="100">
+          <button type="button" class="btn btn-active login-btn">Login</button>
+          <div class="line d-flex justify-content-center align-items-center">
+            <hr width="100" />
+            <p>Or</p>
+            <hr width="100" />
           </div>
-          <button class="btn">
-            <img src="@/assets/google.png" alt="google" width="24" height="24">
-            <p>Login with Google</p>
+          <button class="btn d-flex justify-content-center align-items-center login-with-google">
+            <img
+              src="@/assets/google.png"
+              alt="google"
+              class="col-3"
+            />
+            <p class="col-10">Login with Google</p>
           </button>
         </form>
       </div>

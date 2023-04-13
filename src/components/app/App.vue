@@ -1,14 +1,14 @@
 <template>
   <div class="app">
-    <Navbar />
-    <div class="d-flex">
-      <MenuBar />
-      <Dashboard />
-      <!-- <SelectTopic /> -->
-      <!-- <Instruction /> -->
-      <!-- <AnswerQuestion /> -->
-    </div>
-    <!-- <Login /> -->
+    <!-- <Navbar /> -->
+    <!-- <div class="d-flex"> -->
+    <!-- <MenuBar /> -->
+    <!-- <Dashboard /> -->
+    <!-- <SelectTopic /> -->
+    <!-- <Instruction /> -->
+    <!-- <AnswerQuestion /> -->
+    <!-- </div> -->
+    <Login />
   </div>
 </template>
 
@@ -21,7 +21,6 @@ import Instruction from '@/components/instruction/Instruction.vue'
 import AnswerQuestion from '@/components/answerQuestion/AnswerQuestion.vue'
 import Login from '@/components/login/Login.vue'
 
-
 export default {
   components: {
     Navbar,
@@ -30,13 +29,15 @@ export default {
     SelectTopic,
     Instruction,
     AnswerQuestion,
-    Login
+    Login,
   },
 }
 </script>
 
 <style scoped>
 .app {
+  font-family: 'Poppins';
+  font-style: normal;
   background: #fbf9f9;
   backdrop-filter: blur(30px);
   max-width: 1440px;
