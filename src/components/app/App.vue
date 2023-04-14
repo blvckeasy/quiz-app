@@ -8,7 +8,8 @@
     <!-- <Instruction /> -->
     <!-- <AnswerQuestion /> -->
     <!-- </div> -->
-    <Login />
+    <!-- <Login />   -->
+    <Registration />
   </div>
 </template>
 
@@ -20,6 +21,8 @@ import SelectTopic from '@/components/selectTopic/SelectTopic.vue'
 import Instruction from '@/components/instruction/Instruction.vue'
 import AnswerQuestion from '@/components/answerQuestion/AnswerQuestion.vue'
 import Login from '@/components/login/Login.vue'
+import Registration from '@/components/registration/Registration.vue'
+
 
 export default {
   components: {
@@ -30,6 +33,7 @@ export default {
     Instruction,
     AnswerQuestion,
     Login,
+    Registration,
   },
 }
 </script>

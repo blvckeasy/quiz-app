@@ -45,7 +45,7 @@
   top: calc(75%);
   left: calc(38%);
   background: #ffffff;
-  background-image: url('@/assets/login-tool-1.png');
+  background-image: url('@/assets/register-tool-1.png');
   background-size: 33.5px 33px;
   width: 33.5px;
   height: 33px;
@@ -66,16 +66,15 @@
   margin-top: 13px;
 }
 
-form > .login-text {
+form > .register-text {
   font-weight: 700;
   font-size: 30px;
   line-height: 45px;
   color: #000000;
-  width: 335px;
   height: 45px;
 }
 
-form > .login-description {
+form > .register-description {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
@@ -133,7 +132,7 @@ form {
   margin-top: 60px;
 }
 
-form > .login-btn {
+form > .register-btn {
   background: #8692a6;
   border-radius: 30px;
   width: 426px;
@@ -160,7 +159,7 @@ form > .login-btn {
   margin: 0 35px;
 }
 
-.login-with-google {
+.register-with-google {
   margin-top: 25px;
   background: #ffffff;
   box-shadow: 0px 15px 40px 5px #ededed;
@@ -169,12 +168,12 @@ form > .login-btn {
   height: 64px;
 }
 
-.login-with-google > img {
+.register-with-google > img {
   width: 24px;
   height: 24px;
 }
 
-.login-with-google > p {
+.register-with-google > p {
   margin-top: 15px;
   font-family: 'Inter';
   font-style: normal;
