@@ -1,5 +1,14 @@
 <template>
+  <!-- <a href="#/">Home</a> |
+  <a href="#/login">login</a> |
+  <a href="#/register">register</a> -->
+  <!-- <component :is="currentView" /> -->
   <div class="app">
+    <router-view name="navbar"></router-view>
+    <div class="d-flex">
+      <router-view name="menuBar"></router-view>
+      <router-view></router-view>
+    </div>
     <!-- <Navbar /> -->
     <!-- <div class="d-flex"> -->
     <!-- <MenuBar /> -->
@@ -9,7 +18,7 @@
     <!-- <AnswerQuestion /> -->
     <!-- </div> -->
     <!-- <Login />   -->
-    <Registration />
+    <!-- <Registration /> -->
   </div>
 </template>
 
@@ -23,8 +32,17 @@ import AnswerQuestion from '@/components/answerQuestion/AnswerQuestion.vue'
 import Login from '@/components/login/Login.vue'
 import Registration from '@/components/registration/Registration.vue'
 
-
 export default {
+  data() {
+    return {
+      currentPath: window.location.pathname,
+    }
+  },
+  methods: {
+    checkPathNavbar() {
+      return ['/'].includes(this.currentPath)
+    }
+  },
   components: {
     Navbar,
     MenuBar,
